@@ -1,0 +1,32 @@
+Mass properties of body
+     Configuration: Default
+     Coordinate system: Coordinate System3
+
+Mass (user-overridden) = 2.90 grams
+
+Volume = 4906.41 cubic millimeters
+
+Surface area = 2522.35  square millimeters
+
+Center of mass: ( millimeters )
+	X = -0.63
+	Y = 0.00
+	Z = 0.06
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = (-1.00,  0.00, -0.01)   	Px = 119.95
+	 Iy = ( 0.00, -1.00,  0.00)   	Py = 315.79
+	 Iz = (-0.01,  0.00,  1.00)   	Pz = 420.13
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
+	Lxx = 119.97	Lxy = -0.01	Lxz = 2.45
+	Lyx = -0.01	Lyy = 315.79	Lyz = -0.01
+	Lzx = 2.45	Lzy = -0.01	Lzz = 420.11
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system.
+	Ixx = 119.98	Ixy = -0.01	Ixz = 2.34
+	Iyx = -0.01	Iyy = 316.96	Iyz = -0.01
+	Izx = 2.34	Izy = -0.01	Izz = 421.27

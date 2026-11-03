@@ -1,0 +1,339 @@
+
+Fit Group(
+	Fit Model(
+		Y( :BR ),
+		Effects( :phase ),
+		Random Effects( :animal ),
+		NoBounds( 1 ),
+		Personality( "Standard Least Squares" ),
+		Method( "REML" ),
+		Emphasis( "Minimal Report" ),
+		Run(
+			:BR << {Summary of Fit( 1 ), Analysis of Variance( 0 ),
+			Parameter Estimates( 1 ), Scaled Estimates( 0 ),
+			Plot Actual by Predicted( 0 ), Plot Regression( 0 ),
+			Plot Residual by Predicted( 0 ), Plot Studentized Residuals( 0 ),
+			Plot Effect Leverage( 0 ), Plot Residual by Normal Quantiles( 0 ),
+			{:phase << {LSMeans Student's t( 0.05 )}}}
+		),
+		SendToReport(
+			Dispatch( {"Response BR"}, "Summary of Fit", OutlineBox, {Close( 1 )} ),
+			Dispatch(
+				{"Response BR"},
+				"Parameter Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BR"},
+				"REML Variance Component Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BR", "Effect Details"},
+				"phase",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BR", "Effect Details", "phase"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BR", "Effect Details"},
+				"animal",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BR", "Effect Details", "animal"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			)
+		)
+	),
+	Fit Model(
+		Y( :BP ),
+		Effects( :phase ),
+		Random Effects( :animal ),
+		NoBounds( 1 ),
+		Personality( "Standard Least Squares" ),
+		Method( "REML" ),
+		Emphasis( "Minimal Report" ),
+		Run(
+			:BP << {Summary of Fit( 1 ), Analysis of Variance( 0 ),
+			Parameter Estimates( 1 ), Scaled Estimates( 0 ),
+			Plot Actual by Predicted( 0 ), Plot Regression( 0 ),
+			Plot Residual by Predicted( 0 ), Plot Studentized Residuals( 0 ),
+			Plot Effect Leverage( 0 ), Plot Residual by Normal Quantiles( 0 ),
+			{:phase << {LSMeans Student's t( 0.05 )}}}
+		),
+		SendToReport(
+			Dispatch( {"Response BP"}, "Summary of Fit", OutlineBox, {Close( 1 )} ),
+			Dispatch(
+				{"Response BP"},
+				"Parameter Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BP"},
+				"REML Variance Component Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BP", "Effect Details"},
+				"phase",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BP", "Effect Details", "phase"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BP", "Effect Details"},
+				"animal",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response BP", "Effect Details", "animal"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			)
+		)
+	),
+	Fit Model(
+		Y( :HF ),
+		Effects( :phase ),
+		Random Effects( :animal ),
+		NoBounds( 1 ),
+		Personality( "Standard Least Squares" ),
+		Method( "REML" ),
+		Emphasis( "Minimal Report" ),
+		Run(
+			:HF << {Summary of Fit( 1 ), Analysis of Variance( 0 ),
+			Parameter Estimates( 1 ), Scaled Estimates( 0 ),
+			Plot Actual by Predicted( 0 ), Plot Regression( 0 ),
+			Plot Residual by Predicted( 0 ), Plot Studentized Residuals( 0 ),
+			Plot Effect Leverage( 0 ), Plot Residual by Normal Quantiles( 0 ),
+			{:phase << {LSMeans Student's t( 0.05 )}}}
+		),
+		SendToReport(
+			Dispatch( {"Response HF"}, "Summary of Fit", OutlineBox, {Close( 1 )} ),
+			Dispatch(
+				{"Response HF"},
+				"Parameter Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response HF"},
+				"REML Variance Component Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response HF", "Effect Details"},
+				"phase",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response HF", "Effect Details", "phase"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response HF", "Effect Details"},
+				"animal",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response HF", "Effect Details", "animal"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			)
+		)
+	),
+	Fit Model(
+		Y( :AF ),
+		Effects( :phase ),
+		Random Effects( :animal ),
+		NoBounds( 1 ),
+		Personality( "Standard Least Squares" ),
+		Method( "REML" ),
+		Emphasis( "Minimal Report" ),
+		Run(
+			:AF << {Summary of Fit( 1 ), Analysis of Variance( 0 ),
+			Parameter Estimates( 1 ), Scaled Estimates( 0 ),
+			Plot Actual by Predicted( 0 ), Plot Regression( 0 ),
+			Plot Residual by Predicted( 0 ), Plot Studentized Residuals( 0 ),
+			Plot Effect Leverage( 0 ), Plot Residual by Normal Quantiles( 0 ),
+			{:phase << {LSMeans Student's t( 0.05 )}}}
+		),
+		SendToReport(
+			Dispatch( {"Response AF"}, "Summary of Fit", OutlineBox, {Close( 1 )} ),
+			Dispatch(
+				{"Response AF"},
+				"Parameter Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response AF"},
+				"REML Variance Component Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response AF", "Effect Details"},
+				"phase",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response AF", "Effect Details", "phase"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response AF", "Effect Details"},
+				"animal",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response AF", "Effect Details", "animal"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			)
+		)
+	),
+	Fit Model(
+		Y( :LH ),
+		Effects( :phase ),
+		Random Effects( :animal ),
+		NoBounds( 1 ),
+		Personality( "Standard Least Squares" ),
+		Method( "REML" ),
+		Emphasis( "Minimal Report" ),
+		Run(
+			:LH << {Summary of Fit( 1 ), Analysis of Variance( 0 ),
+			Parameter Estimates( 1 ), Scaled Estimates( 0 ),
+			Plot Actual by Predicted( 0 ), Plot Regression( 0 ),
+			Plot Residual by Predicted( 0 ), Plot Studentized Residuals( 0 ),
+			Plot Effect Leverage( 0 ), Plot Residual by Normal Quantiles( 0 ),
+			{:phase << {LSMeans Student's t( 0.05 )}}}
+		),
+		SendToReport(
+			Dispatch( {"Response LH"}, "Summary of Fit", OutlineBox, {Close( 1 )} ),
+			Dispatch(
+				{"Response LH"},
+				"Parameter Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LH"},
+				"REML Variance Component Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LH", "Effect Details"},
+				"phase",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LH", "Effect Details", "phase"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LH", "Effect Details"},
+				"animal",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LH", "Effect Details", "animal"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			)
+		)
+	),
+	Fit Model(
+		Y( :LS ),
+		Effects( :phase ),
+		Random Effects( :animal ),
+		NoBounds( 1 ),
+		Personality( "Standard Least Squares" ),
+		Method( "REML" ),
+		Emphasis( "Minimal Report" ),
+		Run(
+			:LS << {Summary of Fit( 1 ), Analysis of Variance( 0 ),
+			Parameter Estimates( 1 ), Scaled Estimates( 0 ),
+			Plot Actual by Predicted( 0 ), Plot Regression( 0 ),
+			Plot Residual by Predicted( 0 ), Plot Studentized Residuals( 0 ),
+			Plot Effect Leverage( 0 ), Plot Residual by Normal Quantiles( 0 ),
+			{:phase << {LSMeans Student's t( 0.05 )}}}
+		),
+		SendToReport(
+			Dispatch( {"Response LS"}, "Summary of Fit", OutlineBox, {Close( 1 )} ),
+			Dispatch(
+				{"Response LS"},
+				"Parameter Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LS"},
+				"REML Variance Component Estimates",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LS", "Effect Details"},
+				"phase",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LS", "Effect Details", "phase"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LS", "Effect Details"},
+				"animal",
+				OutlineBox,
+				{Close( 1 )}
+			),
+			Dispatch(
+				{"Response LS", "Effect Details", "animal"},
+				"Least Squares Means Table",
+				OutlineBox,
+				{Close( 1 )}
+			)
+		)
+	)
+);

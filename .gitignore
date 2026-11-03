@@ -1,0 +1,9 @@
+*.asv
+*.avi
+*.mp4
+.DS_Store
+Thumbs.db
+JEB-2022.pdf
+*.pdf
+output/
+raw_videos/
